@@ -7,7 +7,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: ./
-      Runtime: python3.9.10
+      Runtime: python3.9
       Environment:
         Variables:
           Dynamodbtable: !Ref DynamoDBTable
